@@ -30,5 +30,8 @@ curl -s $ASSH_SCRIPT_URL > /usr/local/bin/assh
 # make script executable
 chmod +x /usr/local/bin/assh
 
+# print success message
+echo "assh was successfully installed!"
+
 # print usage
 echo "Usage: assh <hostname>"
