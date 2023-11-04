@@ -13,11 +13,10 @@ demo video: https://www.youtube.com/watch?v=EAjosu4AVGQ
 
 
 you can install assh by running the following command in your terminal:
-> NOTE: this will append the script to your ~/.profile file
+> Note: this will require sudo privileges, as it will install the script to /usr/local/bin/assh
 
 ```sh
-echo "# assh" >> ~/.profile
-curl -o- https://raw.githubusercontent.com/meanii/assh/main/script.sh >> ~/.profile
+curl -o- https://raw.githubusercontent.com/meanii/assh/main/install.sh | auto bash 
 ```
 
 ## Usage
