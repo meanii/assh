@@ -16,7 +16,7 @@ you can install assh by running the following command in your terminal:
 > Note: this will require sudo privileges, as it will install the script to /usr/local/bin/assh
 
 ```sh
-curl -o- https://raw.githubusercontent.com/meanii/assh/main/install.sh | sudo bash 
+curl --silent -o- https://raw.githubusercontent.com/meanii/assh/main/install.sh | sudo bash 
 ```
 
 ## Usage
